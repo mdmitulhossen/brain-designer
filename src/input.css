@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .brainContainer{
+        @apply max-w-[1920px] mx-auto 3xl:px-[275px] px-3 sm:px-8 md:px-12 lg:px-20 xl:px-28 2xl:px-40
+    }
+    .btn {
+        @apply text-white bg-brain px-5 py-2 font-bold
+    }
+}
